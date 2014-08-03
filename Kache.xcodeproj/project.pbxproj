@@ -14,7 +14,6 @@
 		5306CBAD198DBA8B008B9889 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5306CBAC198DBA8B008B9889 /* main.m */; };
 		5306CBB1198DBA8B008B9889 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5306CBB0198DBA8B008B9889 /* AppDelegate.m */; };
 		5306CBB4198DBA8B008B9889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5306CBB2198DBA8B008B9889 /* Main.storyboard */; };
-		5306CBB7198DBA8B008B9889 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5306CBB6198DBA8B008B9889 /* ViewController.m */; };
 		5306CBB9198DBA8B008B9889 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5306CBB8198DBA8B008B9889 /* Images.xcassets */; };
 		5306CBC0198DBA8B008B9889 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5306CBBF198DBA8B008B9889 /* XCTest.framework */; };
 		5306CBC1198DBA8B008B9889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5306CBA0198DBA8B008B9889 /* Foundation.framework */; };
@@ -45,8 +44,6 @@
 		5306CBAF198DBA8B008B9889 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5306CBB0198DBA8B008B9889 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5306CBB3198DBA8B008B9889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5306CBB5198DBA8B008B9889 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5306CBB6198DBA8B008B9889 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5306CBB8198DBA8B008B9889 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5306CBBE198DBA8B008B9889 /* KacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5306CBBF198DBA8B008B9889 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +112,6 @@
 				5306CBAF198DBA8B008B9889 /* AppDelegate.h */,
 				5306CBB0198DBA8B008B9889 /* AppDelegate.m */,
 				5306CBB2198DBA8B008B9889 /* Main.storyboard */,
-				5306CBB5198DBA8B008B9889 /* ViewController.h */,
-				5306CBB6198DBA8B008B9889 /* ViewController.m */,
 				5306CBB8198DBA8B008B9889 /* Images.xcassets */,
 				5306CBA7198DBA8B008B9889 /* Supporting Files */,
 			);
@@ -249,7 +244,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5306CBB7198DBA8B008B9889 /* ViewController.m in Sources */,
 				5306CBB1198DBA8B008B9889 /* AppDelegate.m in Sources */,
 				5306CBAD198DBA8B008B9889 /* main.m in Sources */,
 			);
@@ -456,6 +450,7 @@
 				5306CBD1198DBA8B008B9889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5306CBD2198DBA8B008B9889 /* Build configuration list for PBXNativeTarget "KacheTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +459,7 @@
 				5306CBD4198DBA8B008B9889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
