@@ -12,8 +12,9 @@
 
 @interface PaymentViewController () <APNumberPadDelegate>
 
-@property (strong, nonatomic) IBOutlet UITextField *textField;
-@property (strong, readwrite, nonatomic) UITextField *styledTextField;
+@property (weak, nonatomic) IBOutlet UITextField *nameTextField;
+
+@property (weak, nonatomic) IBOutlet UITextField *moneyTextField;
 
 @end
 
@@ -31,7 +32,7 @@
 
 
 
-- (void)viewWillLayoutSubviews {
+/*- (void)viewWillLayoutSubviews {
     [super viewWillLayoutSubviews];
     
     self.textField.frame = CGRectMake(10.f, 50.f, CGRectGetWidth(self.view.bounds) - 10.f * 2, 30.f);
@@ -50,9 +51,9 @@
         });
     }
     return _textField;
-}
+}*/
 
-- (UITextField *)styledTextField{
+/*- (UITextField *)styledTextField{
     
     if (!_styledTextField) {
         _styledTextField = [[UITextField alloc] initWithFrame:CGRectZero];
@@ -67,11 +68,12 @@
     }
     
     return _styledTextField;
-}
+}*/
 
 
 #pragma mark - APNumberPadDelegate
 
+/*
 - (void)numberPad:(APNumberPad *)numberPad functionButtonAction:(UIButton *)functionButton textInput:(UIResponder<UITextInput> *)textInput {
     if ([textInput isEqual:self.textField]) {
         [functionButton setTitle:[functionButton.currentTitle stringByAppendingString:@"z"] forState:UIControlStateNormal];
@@ -93,8 +95,11 @@
         [self.styledTextField resignFirstResponder];
         [self.styledTextField becomeFirstResponder];
     }
-}
+}*/
 
+- (IBAction)backgroundButtonPressed:(id)sender {
+    
+}
 
 - (void)viewDidLoad
 {

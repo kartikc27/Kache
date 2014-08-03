@@ -39,6 +39,8 @@
 		538C0819198DE3AB00595A06 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538C0818198DE3AB00595A06 /* Security.framework */; };
 		538C081B198DE3B800595A06 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538C081A198DE3B800595A06 /* StoreKit.framework */; };
 		538C081D198DE3BF00595A06 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538C081C198DE3BF00595A06 /* SystemConfiguration.framework */; };
+		538C0820198DEDC900595A06 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538C081F198DEDC900595A06 /* HomeViewController.m */; };
+		538C0823198E07CA00595A06 /* ContainerTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538C0822198E07CA00595A06 /* ContainerTableTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +98,10 @@
 		538C0818198DE3AB00595A06 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		538C081A198DE3B800595A06 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		538C081C198DE3BF00595A06 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		538C081E198DEDC900595A06 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		538C081F198DEDC900595A06 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		538C0821198E07CA00595A06 /* ContainerTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerTableTableViewController.h; sourceTree = "<group>"; };
+		538C0822198E07CA00595A06 /* ContainerTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerTableTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,8 +198,12 @@
 				5306CBAF198DBA8B008B9889 /* AppDelegate.h */,
 				5306CBB0198DBA8B008B9889 /* AppDelegate.m */,
 				5306CBB2198DBA8B008B9889 /* Main.storyboard */,
+				538C0821198E07CA00595A06 /* ContainerTableTableViewController.h */,
+				538C0822198E07CA00595A06 /* ContainerTableTableViewController.m */,
 				538C0805198DE1C000595A06 /* LoginViewController.h */,
 				538C0806198DE1C000595A06 /* LoginViewController.m */,
+				538C081E198DEDC900595A06 /* HomeViewController.h */,
+				538C081F198DEDC900595A06 /* HomeViewController.m */,
 				18465FB9198DC8AB0016E8A8 /* PaymentViewController.h */,
 				18465FBA198DC8AB0016E8A8 /* PaymentViewController.m */,
 				5306CBB8198DBA8B008B9889 /* Images.xcassets */,
@@ -335,7 +345,9 @@
 				18465FC1198DCB3C0016E8A8 /* APDarkPadStyle.m in Sources */,
 				18465FCB198DCB4E0016E8A8 /* APNumberPadDefaultStyle.m in Sources */,
 				18465FCA198DCB4E0016E8A8 /* APNumberPad.m in Sources */,
+				538C0820198DEDC900595A06 /* HomeViewController.m in Sources */,
 				18465FBB198DC8AB0016E8A8 /* PaymentViewController.m in Sources */,
+				538C0823198E07CA00595A06 /* ContainerTableTableViewController.m in Sources */,
 				5306CBB1198DBA8B008B9889 /* AppDelegate.m in Sources */,
 				538C0807198DE1C000595A06 /* LoginViewController.m in Sources */,
 				18465FC9198DCB4E0016E8A8 /* APNumberButton.m in Sources */,

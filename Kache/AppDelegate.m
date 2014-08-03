@@ -22,7 +22,6 @@
     
     [PFFacebookUtils initializeFacebook];
     
-    
     return YES;
 }
 
