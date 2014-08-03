@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "Kache": {
+            "applicationId": "pKBfhz8PO9RHgr9DZzX6bQ8s1rMScVXKf2sRhaLT", 
+            "masterKey": "y3Hy0sgD7JKi7s2pfSAoN5ulyzNED31apVQ2fPhQ"
+        }, 
+        "_default": {
+            "link": "Kache"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.2.19"
+    }
+}

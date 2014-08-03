@@ -8,6 +8,7 @@
 
 #import "HomeViewController.h"
 #import "Parse/Parse.h"
+#import "PaymentViewController.h"
 
 
 @interface HomeViewController ()
@@ -37,6 +38,14 @@
     //[transactionQuery whereKey:@"sender" equalTo:[PFUser currentUser]];
     //NSArray* objects = [transactionQuery findObjects];
     [self performSelector:@selector(retrieveFromParse)];
+    NSLog(@"Testing");
+
+    
+}
+
+- (void) viewWillAppear:(BOOL)animated {
+    [self performSelector:@selector(retrieveFromParse)];
+    [transactionsTable reloadData];
 
     
 }
@@ -90,6 +99,24 @@
     
     return cell;
     
+}
+
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    
+    if([segue.identifier isEqualToString:@"requestSegue"])
+    {
+        PaymentViewController *controller = (PaymentViewController *)segue.destinationViewController;
+        NSString* temp = @"request";
+        controller.typeTransaction = temp;
+    }
+    
+    if([segue.identifier isEqualToString:@"paySegue"])
+    {
+        PaymentViewController *controller = (PaymentViewController *)segue.destinationViewController;
+        NSString* temp = @"payment";
+        controller.typeTransaction = temp;
+    }
 }
 
 /*- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath

@@ -10,11 +10,14 @@
 #import "APDarkPadStyle.h"
 #import "APBluePadStyle.h"
 
-@interface PaymentViewController () <APNumberPadDelegate>
+
+
+@interface PaymentViewController () <APNumberPadDelegate, UITextViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *nameTextField;
 
 @property (weak, nonatomic) IBOutlet UITextField *moneyTextField;
+
 
 @end
 
@@ -28,6 +31,38 @@
     }
     
     return self;
+}
+
+- (BOOL) textViewShouldBeginEditing:(UITextView *)textView
+{
+    if([self.descriptionTextView.text isEqualToString:@"What's it for?"])
+    {
+        self.descriptionTextView.text = @"";
+        self.descriptionTextView.textColor = [UIColor blackColor];
+    }
+    
+    return YES;
+}
+
+-(void) textViewDidChange:(UITextView *)textView
+{
+    
+    if(self.descriptionTextView.text.length == 0)
+    {
+        self.descriptionTextView.textColor = [UIColor lightGrayColor];
+        self.descriptionTextView.text = @"What's it for?";
+        [self.descriptionTextView resignFirstResponder];
+    }
+}
+
+- (void)textViewDidEndEditing:(UITextView *)textView
+{
+    if(self.descriptionTextView.text.length == 0)
+    {
+        self.descriptionTextView.textColor = [UIColor lightGrayColor];
+        self.descriptionTextView.text = @"What's it for?";
+        [self.descriptionTextView resignFirstResponder];
+    }
 }
 
 
@@ -104,6 +139,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.descriptionTextView.text = @"What's it for?";
+    self.descriptionTextView.textColor = [UIColor lightGrayColor];
+    self.descriptionTextView.delegate = self;
+    
     // Do any additional setup after loading the view.
 }
 
@@ -113,7 +152,22 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
+
+- (IBAction)confirmTransaction:(UIButton *)sender
+{
+    PFObject *transcation = [PFObject objectWithClassName:@"Transaction"];
+
+    NSNumber *money = [NSNumber numberWithInteger: [self.moneyAmount.text integerValue]];
+    
+    transcation[@"sender"] = [PFUser currentUser];
+    transcation[@"amount"] = money;
+    transcation[@"type"] = self.typeTransaction;
+    
+    [transcation saveInBackground];
+}
+
+
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -122,7 +176,7 @@
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
 }
-*/
+
 
 
 
