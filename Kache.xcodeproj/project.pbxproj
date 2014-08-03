@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18465FBB198DC8AB0016E8A8 /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18465FBA198DC8AB0016E8A8 /* PaymentViewController.m */; };
+		18465FC0198DCB3C0016E8A8 /* APBluePadStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 18465FBD198DCB3C0016E8A8 /* APBluePadStyle.m */; };
+		18465FC1198DCB3C0016E8A8 /* APDarkPadStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 18465FBF198DCB3C0016E8A8 /* APDarkPadStyle.m */; };
+		18465FC9198DCB4E0016E8A8 /* APNumberButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18465FC3198DCB4E0016E8A8 /* APNumberButton.m */; };
+		18465FCA198DCB4E0016E8A8 /* APNumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 18465FC5198DCB4E0016E8A8 /* APNumberPad.m */; };
+		18465FCB198DCB4E0016E8A8 /* APNumberPadDefaultStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 18465FC7198DCB4E0016E8A8 /* APNumberPadDefaultStyle.m */; };
+		18465FCD198DD9B60016E8A8 /* CreditCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 18465FCC198DD9B60016E8A8 /* CreditCard.png */; };
 		5306CBA1198DBA8B008B9889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5306CBA0198DBA8B008B9889 /* Foundation.framework */; };
 		5306CBA3198DBA8B008B9889 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5306CBA2198DBA8B008B9889 /* CoreGraphics.framework */; };
 		5306CBA5198DBA8B008B9889 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5306CBA4198DBA8B008B9889 /* UIKit.framework */; };
@@ -33,6 +40,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18465FB9198DC8AB0016E8A8 /* PaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
+		18465FBA198DC8AB0016E8A8 /* PaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
+		18465FBC198DCB3C0016E8A8 /* APBluePadStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APBluePadStyle.h; sourceTree = "<group>"; };
+		18465FBD198DCB3C0016E8A8 /* APBluePadStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APBluePadStyle.m; sourceTree = "<group>"; };
+		18465FBE198DCB3C0016E8A8 /* APDarkPadStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APDarkPadStyle.h; sourceTree = "<group>"; };
+		18465FBF198DCB3C0016E8A8 /* APDarkPadStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APDarkPadStyle.m; sourceTree = "<group>"; };
+		18465FC2198DCB4E0016E8A8 /* APNumberButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNumberButton.h; sourceTree = "<group>"; };
+		18465FC3198DCB4E0016E8A8 /* APNumberButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APNumberButton.m; sourceTree = "<group>"; };
+		18465FC4198DCB4E0016E8A8 /* APNumberPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNumberPad.h; sourceTree = "<group>"; };
+		18465FC5198DCB4E0016E8A8 /* APNumberPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APNumberPad.m; sourceTree = "<group>"; };
+		18465FC6198DCB4E0016E8A8 /* APNumberPadDefaultStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNumberPadDefaultStyle.h; sourceTree = "<group>"; };
+		18465FC7198DCB4E0016E8A8 /* APNumberPadDefaultStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APNumberPadDefaultStyle.m; sourceTree = "<group>"; };
+		18465FC8198DCB4E0016E8A8 /* APNumberPadStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNumberPadStyle.h; sourceTree = "<group>"; };
+		18465FCC198DD9B60016E8A8 /* CreditCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CreditCard.png; sourceTree = "<group>"; };
 		5306CB9D198DBA8A008B9889 /* Kache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kache.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5306CBA0198DBA8B008B9889 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5306CBA2198DBA8B008B9889 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +100,17 @@
 		5306CB94198DBA8A008B9889 = {
 			isa = PBXGroup;
 			children = (
+				18465FBC198DCB3C0016E8A8 /* APBluePadStyle.h */,
+				18465FBD198DCB3C0016E8A8 /* APBluePadStyle.m */,
+				18465FBE198DCB3C0016E8A8 /* APDarkPadStyle.h */,
+				18465FBF198DCB3C0016E8A8 /* APDarkPadStyle.m */,
+				18465FC2198DCB4E0016E8A8 /* APNumberButton.h */,
+				18465FC3198DCB4E0016E8A8 /* APNumberButton.m */,
+				18465FC4198DCB4E0016E8A8 /* APNumberPad.h */,
+				18465FC5198DCB4E0016E8A8 /* APNumberPad.m */,
+				18465FC6198DCB4E0016E8A8 /* APNumberPadDefaultStyle.h */,
+				18465FC7198DCB4E0016E8A8 /* APNumberPadDefaultStyle.m */,
+				18465FC8198DCB4E0016E8A8 /* APNumberPadStyle.h */,
 				5306CBA6198DBA8B008B9889 /* Kache */,
 				5306CBC5198DBA8B008B9889 /* KacheTests */,
 				5306CB9F198DBA8A008B9889 /* Frameworks */,
@@ -109,9 +141,12 @@
 		5306CBA6198DBA8B008B9889 /* Kache */ = {
 			isa = PBXGroup;
 			children = (
+				18465FCC198DD9B60016E8A8 /* CreditCard.png */,
 				5306CBAF198DBA8B008B9889 /* AppDelegate.h */,
 				5306CBB0198DBA8B008B9889 /* AppDelegate.m */,
 				5306CBB2198DBA8B008B9889 /* Main.storyboard */,
+				18465FB9198DC8AB0016E8A8 /* PaymentViewController.h */,
+				18465FBA198DC8AB0016E8A8 /* PaymentViewController.m */,
 				5306CBB8198DBA8B008B9889 /* Images.xcassets */,
 				5306CBA7198DBA8B008B9889 /* Supporting Files */,
 			);
@@ -194,6 +229,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = ychacks;
 				TargetAttributes = {
+					5306CB9C198DBA8A008B9889 = {
+						DevelopmentTeam = 7FX28RKSGV;
+					};
 					5306CBBD198DBA8B008B9889 = {
 						TestTargetID = 5306CB9C198DBA8A008B9889;
 					};
@@ -223,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18465FCD198DD9B60016E8A8 /* CreditCard.png in Resources */,
 				5306CBB9198DBA8B008B9889 /* Images.xcassets in Resources */,
 				5306CBAB198DBA8B008B9889 /* InfoPlist.strings in Resources */,
 				5306CBB4198DBA8B008B9889 /* Main.storyboard in Resources */,
@@ -244,7 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18465FC1198DCB3C0016E8A8 /* APDarkPadStyle.m in Sources */,
+				18465FCB198DCB4E0016E8A8 /* APNumberPadDefaultStyle.m in Sources */,
+				18465FCA198DCB4E0016E8A8 /* APNumberPad.m in Sources */,
+				18465FBB198DC8AB0016E8A8 /* PaymentViewController.m in Sources */,
 				5306CBB1198DBA8B008B9889 /* AppDelegate.m in Sources */,
+				18465FC9198DCB4E0016E8A8 /* APNumberButton.m in Sources */,
+				18465FC0198DCB3C0016E8A8 /* APBluePadStyle.m in Sources */,
 				5306CBAD198DBA8B008B9889 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,10 +415,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Kache/Kache-Prefix.pch";
 				INFOPLIST_FILE = "Kache/Kache-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -383,10 +431,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Kache/Kache-Prefix.pch";
 				INFOPLIST_FILE = "Kache/Kache-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
